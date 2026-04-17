@@ -1,0 +1,12 @@
+Source: ros-jazzy-gstreamer-ros-babel-fish
+Section: misc
+Priority: optional
+Maintainer: Stefan Fabian <gstreamer_ros_babel_fish@stefanfabian.com>
+Build-Depends: debhelper (>= 9.0.0), libgstreamer-plugins-base1.0-dev, libgstreamer1.0-dev, ros-jazzy-ament-cmake, ros-jazzy-ament-cmake-gtest <!nocheck>, ros-jazzy-rclcpp, ros-jazzy-sensor-msgs, ros-jazzy-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-gstreamer-ros-babel-fish
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, gir1.2-gst-plugins-base-1.0, gir1.2-gstreamer-1.0, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, gstreamer1.0-tools, libgstreamer-plugins-base1.0-0, libgstreamer-plugins-good1.0-0, libgstreamer1.0-0, ros-jazzy-rclcpp, ros-jazzy-sensor-msgs, ros-jazzy-ros-workspace
+Description: GStreamer elements for bidirectional ROS 2 image streaming
