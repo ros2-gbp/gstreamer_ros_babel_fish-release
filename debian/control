@@ -1,0 +1,12 @@
+Source: ros-rolling-gstreamer-ros-babel-fish
+Section: misc
+Priority: optional
+Maintainer: Stefan Fabian <gstreamer_ros_babel_fish@stefanfabian.com>
+Build-Depends: debhelper (>= 9.0.0), libgstreamer-plugins-base1.0-dev, libgstreamer1.0-dev, ros-rolling-ament-cmake, ros-rolling-ament-cmake-gtest <!nocheck>, ros-rolling-rclcpp, ros-rolling-sensor-msgs, ros-rolling-ros-workspace
+Homepage: https://index.ros.org/p/gstreamer_ros_babel_fish/#rolling
+Standards-Version: 3.9.2
+
+Package: ros-rolling-gstreamer-ros-babel-fish
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, gir1.2-gst-plugins-base-1.0, gir1.2-gstreamer-1.0, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, gstreamer1.0-tools, libgstreamer-plugins-base1.0-0, libgstreamer1.0-0, ros-rolling-rclcpp, ros-rolling-sensor-msgs, ros-rolling-ros-workspace
+Description: GStreamer elements for bidirectional ROS 2 image streaming
